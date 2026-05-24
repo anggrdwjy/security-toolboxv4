@@ -18,7 +18,6 @@ cetak_info() { echo -e "[\e[36mINFO\e[0m] $1"; }
 
 while true; do
     clear
-    echo " "
     echo " #/(*/#%%//.#/&#&/###*%#(*,.,...*/#&#(&%.%%&, .,,...*#(..,,.. "
     echo " %###((#(/(&%%##&&#/#/*/ ...,. ..*(&%&@@&&(, ,.,.,,,*,((.  ., "
     echo " #%&#####%%%#(%/##%/*(/. .  ... ...#@@@@%(/     .../,/*#(//.. "
@@ -39,9 +38,8 @@ while true; do
     echo " //****,,,,,.,,....,,,,,,.....  .......          ..  ..,,**## "
     echo " //(/***,,,.,****,,,,,........  .,,,,,.... ....  ...,/(**/#(( "
     echo " "
-    echo "      LINUX SECURITY ASSESSMENT & MANAGEMENT TOOLBOX V4       "
-    echo "           Provide By  : aw0x0410 a.k.a anggrdwjy		    "
-    echo " 		       Source Code : github.com/anggrdwjy		    "
+    echo "       LINUX SECURITY ASSESSMENT & MANAGEMENT TOOLBOX V4       "
+    echo "             SOURCE CODE : github.com/anggrdwjy		    "
     echo " "
     echo "  ------------------------------------------------------------"
     echo "   Waktu Sistem : $(date)"
@@ -54,6 +52,7 @@ while true; do
     echo " [3] AUDIT ACTIVE DIRECTORY / CURRENT WORKDIR (Izin File & Owners)"
     echo " [4] KELOLA / UBAH KONFIGURASI SISTEM, FIREWALL & IP"
     echo " [5] KELUAR"
+    echo " "
     echo "  ------------------------------------------------------------"
     read -p " Pilih menu (1-5): " MENU_UTAMA
 
@@ -170,6 +169,7 @@ while true; do
                 echo " [11] Cek Interface & IP Address Saat Ini"
                 echo " [12] Ubah IP Address SEMENTARA (Runtime)"
                 echo " [13] Ubah IP Address PERMANEN (Netplan Ubuntu)"
+                echo " "
                 echo " -- KEMBALI --"
                 echo " [14] Kembali ke Menu Utama"
                 echo " "
